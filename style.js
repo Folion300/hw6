@@ -3,9 +3,9 @@ function printTimeout(str, n) {
     function ght() {
         console.log(str);
     }
-    setTimeout(ght, n);
+    setTimeout(ght, n*1000);
 }
-printTimeout('hello', 10000);
+printTimeout('hello', 10);
 
 
 //2
